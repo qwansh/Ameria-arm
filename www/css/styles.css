@@ -1,0 +1,868 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+body, html {
+	background:url(../images/pix.png);
+	background-repeat:repeat;
+	margin:0px;
+	padding:0px;
+}
+
+
+@font-face {
+    font-family: Arial;
+    src: url(../fonts/ArianAMURegular.ttf);
+}
+
+@font-face {
+    font-family: gotham-bold;
+    src: url(../fonts/Gotham-Rounded-Bold_21016.ttf);
+}
+
+@font-face {
+    font-family: gotham-book;
+    src: url(../fonts/Gotham-Rounded-Book_21018.ttf);
+}
+
+
+p {
+    color: black;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+	text-align: justify;
+}
+
+#headcontainer {
+    background: url("../images/header.png") no-repeat center #005163;
+    box-shadow: 0 8px 6px -6px rgba(50, 50, 50, 0.3);
+    color: #fff;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 11000;
+}
+
+header {
+    color: #fff;
+    font-size: 0.8125em;
+    margin: 0 auto;
+    max-width: 1100px;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+#center {
+	height:90px;
+	margin:0 auto;   
+}
+
+.logo {
+    padding: 17px 0;
+    display: inline-block;
+    float: left;
+}
+
+#phoneLogo {
+	width: 50px;
+	margin-left: 50px;
+	
+}
+
+
+.menu-btn {
+    width: 180px;
+    padding: 10px;
+    height: 20px;
+    margin-top: 20px;
+    background: #71bd44;
+    color: #FFF;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    float: right;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    font-family: gotham-bold;
+    font-size: 14px;
+}
+
+
+
+#container {
+	position:static;
+	margin: 0 auto;
+}
+
+#content {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.3);
+    clear: both;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+#menu {
+   position:fixed;
+   width:249px;
+   height: 100%
+}
+
+nav ul#nav {
+    padding-bottom: 90px;
+}
+
+.navpart {
+	margin-top: 100px;
+	margin-bottom: 200px;	
+}
+
+.navhist, .navam {
+	margin-top: 5px;
+	margin-bottom: 110px;	
+}
+
+
+.navpos {
+	margin-top: 10px;
+	margin-bottom: 100px;	
+}
+
+.navcorp {
+	margin-top: 1px;
+	margin-bottom: 120px;	
+}
+.navkey, .navawards, .navstrategy {
+	margin-top: 10px;
+	margin-bottom: 80px;	
+}	
+
+.greenLineBorderend {
+	background: url("../images/rounded-border.png") repeat-x 1px 0;
+    width: 100%;
+    height: 4px;
+	margin: 100px 0 110px; 
+}
+
+.financialSection {
+	width:75%;
+    margin: 0 auto;
+}
+
+.chapter-cover-text p {
+    margin: 50px auto 55px;
+    color: black;
+    font-family: Arial;
+    font-size: 16px;
+	font-style: normal;
+}
+
+.overTxt p {
+	margin: 10px 0px;
+    color: black;
+    font-family: Arial;
+    font-size: 16px;
+	font-style: normal;
+}
+
+
+.finHighBox {
+    margin-bottom: 35px;
+}
+
+.table{
+	width:100%;
+	
+	
+}
+
+.over{
+	width:75%;
+	margin: 0 auto;
+	margin-top: 80px;
+
+}
+
+.greenLineBorder {
+    background: url("../images/rounded-border.png") repeat-x 1px 0;
+    width: 100%;
+    height: 4px;
+}
+
+
+.textWrapRight{
+	   clear:right;
+     float: left;
+	   margin-top: 0px;
+	   margin-right:25px;
+}
+
+.finHighBox {
+    background-image: url("../images/green-line.png");
+	  margin-bottom: 5px;
+    padding-bottom:10px;
+	  background-repeat: no-repeat;
+	  background-position: 0 100%;
+}
+
+.finHighBox span {
+    color: #7DB900;
+    font-family: gotham-bold;
+    font-size: 28px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+
+.chief-review .chiefReviewTxt h1.title,
+.chairmans-letter .chairmansLetterTxt h1.title {
+	color: #005264;
+	font-size: 28px;
+	font-style: normal;
+	font-family: gotham-book;
+	margin-top: 35px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	line-height: 120%;
+	text-transform: uppercase;
+}
+
+.chief-review .chiefReviewTxt p,
+.chairmans-letter .chairmansLetterTxt p {
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Arial;
+}
+
+
+.chief-review .chiefReviewTxt h1.greenTitle {
+    font-family: Arial;
+    color: #7DB900;
+    font-style: normal;
+	font-weight:bold;
+    margin: 40px 0 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.over .overTxt a.greengroup{
+	font-family: Arial;
+    color: #72C045;
+    font-style: normal;
+    font-size: 16px;
+	text-transform: uppercase;
+}
+
+.overBox {
+    background: url("../images/bl-line.png");
+	  color: #0B9BB4;
+    font-family: gotham-book;
+    font-size: 28px;
+	  font-style: normal;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+	  margin-bottom:10px;
+	  margin-top: 10px;
+	  background-repeat: no-repeat;
+	  background-position: 0 100%;
+	
+}
+
+
+
+ul.overviewList {
+    margin-left: 20px;
+    list-style-image: url('../images/strelka.png');
+}
+
+ul.overviewList li {
+    color: #000000;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.phil{
+	margin: 80px 0 10px;	
+}
+
+.historic{
+	margin-top: 30px;
+	margin-bottom: -20px;		
+}
+
+
+.year {
+	
+	border-bottom: 3px solid #0B9BB4;
+	padding-bottom: 15px;
+	margin-bottom: 25px;
+	margin-top:50px;	
+	color: #0B9BB4;
+    font-family: gotham-bold;
+    font-size: 24px;
+	font-style: normal;
+    text-transform: uppercase;
+    cursor: pointer;	
+}
+
+.strongblue{
+	font-family: Arial;
+	font-weight:bold;
+	font-size: 16px;
+	color: #0B9BB4;
+	text-align: justify;
+	font-style: normal;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+ }
+ 
+ .strong{
+	font-family: Arial;
+	font-weight:bold;
+	font-size: 16px;
+	color: black;
+	text-align: justify;
+	font-style: normal;		
+ }
+ 
+.corporateInfoBlock p a.strong{
+	margin-left: 2px;
+}
+
+.corporateInfoBlock img{
+	margin-top: 5px;
+}
+
+.globalInfoBlock,
+.corporateInfoBlock {
+    overflow: auto;
+	margin: 30px 0 30px;
+}
+
+.globalInfoBlock {
+    margin-top: 50px;
+}
+
+#partners .globalInfoBlock.first {
+    margin-top: 0px;
+}
+
+.globalImgBlock {
+    margin-top: 5px;
+}
+
+.globalImgBlock,
+.corporateImgBlock {
+    float: left
+}
+
+.globalImgBlock img,
+.corporateImgBlock img {
+    display: block;
+    padding-right: 30px;
+}
+
+.globalTxtBlock,
+.corporateTxtBlock {
+    overflow: hidden;
+}
+
+.corporatechild, .corporatevel, .relchurch,
+.oeeb-austrian, .adb-asian, .eas-bank, .blacksea-bank,
+.citi-bank, .com-bank, .deg-bank, .euro-bank, .ifc-bank,
+.pro-bank, .fmo-bank {
+	float: left;
+	margin-right: 30px;
+	margin-top: 5px;	  	
+}
+
+.healthcare, .cormed, .corchild, .corvel, .church, 
+.globoeeb, .globadb, .globeas, .globsea, .globciti,
+.globcom, .globdeg, .globeuro, .globifc, .globpro, .globfmo {
+	overflow:hidden; 
+	text-align: justify;	
+}
+
+.child {
+	margin-top: 90px;	
+}
+
+.endtext {
+	margin-top: 25px;
+	margin-bottom: 80px;	
+}
+
+.retail-bankingBox {
+    background-image: url("../images/grretail.gif");
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+	  color: #336666;
+    font-family: gotham-book;
+    font-size: 28px;
+	  font-style: normal;
+    text-transform: uppercase;
+	  background-repeat: no-repeat;
+	  background-position: 0 100%;
+}
+
+.corporate-bankingBox {
+    background-image: url("../images/blretail.gif");
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+	  color: #336699;
+    font-family: gotham-book;
+    font-size: 28px;
+	  font-style: normal;
+    text-transform: uppercase;
+	  background-repeat: no-repeat;
+	  background-position: 0 100%;
+}
+
+.fotext  {
+    background: url(../images/fotext.png) repeat-y;
+	color: #000000;
+	height: 595px;
+    font-family: gotham-book;
+    font-size: 28px;
+	font-style: normal;
+	margin-top: 45px;
+}
+
+
+
+.fotext .textfo p {
+	color: #000000;
+    font-family: gotham-book;
+    font-size: 26px;
+	font-style: normal;
+	text-align: justify;
+	padding-top: 25px;
+	padding-left: 90px;
+	line-height: 40px;		
+}
+   
+.fotext .textfo p span, .roa p span {
+	color: #000000;
+    font-family: gotham-book;
+    font-size: 32px;
+	font-style: normal;		
+}
+
+.fontext {
+    background: url(../images/fontext.gif) no-repeat;
+}
+
+.fontext .textfon p, .fontext1 .textfon1 p {
+	color: #000000;
+    font-family: gotham-book;
+    font-size: 26px;
+	font-style: normal;
+	text-align: justify;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	line-height: 30px;
+
+}
+
+.fontext .textfon p span {
+	color: #0099CC;
+    font-family: gotham-book;
+    font-size: 32px;
+	font-style: normal;
+	line-height: 50px;		
+}
+
+.fontext1 {
+    background: url(../images/fontext1.gif) no-repeat;
+    background-size: 900px 280px;
+	margin-top: -30px;
+	margin-bottom: 40px;
+}
+
+.roa p span {
+	color: #000000;
+    font-family: gotham-book;
+    font-size: 32px;
+	font-style: normal;		
+}
+
+ul.sector {
+    margin-left: 150px;
+    list-style-image: url(../images/strelkagr.png);
+}
+
+ul.sector li {
+    color: #000000;
+    font-size: 26px;
+	font-family: gotham-book;
+	font-style: normal;
+	text-align: justify;
+	line-height: 35px;
+
+}
+
+.roa {
+	margin-top: 50px;
+	margin-bottom: 55px; 	
+}
+
+.roa p {
+	color: #000000;
+    font-family: gotham-book;
+    font-size: 26px;
+	font-style: normal;
+	line-height: 40px;
+	text-align: center;		
+}
+
+.tablepk {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+	
+.tablepk1 {
+	text-align:center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+			
+.retail-bankingTxt p{
+	font-family: Arial;
+	font-size: 16px;
+	text-align: justify;
+	font-style: normal;
+	margin-top: 35px;
+}	
+
+.retail-bankingTxt p span{
+	font-family: Arial;
+	font-weight:bold;
+	font-size: 16px;
+	text-align: justify;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.alliance {
+	margin-top: 80px;	
+}
+
+.corporate-bankingTxt p {
+	font-family: Arial;
+	font-size: 16px;
+	text-align: justify;
+	font-style: normal;
+}
+
+
+
+.investment-banking, .corporate-governance {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.yellowBoardBox{
+    background-image: url(../images/investcolorbord.png);
+    color: #CCCC33;
+    font-family: gotham-book;
+    font-size: 28px;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+	text-transform: uppercase;
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+}
+
+.greenBoardBox {
+    background-image: url(../images/govcolorbord.png);
+    color: #BFD730;
+    font-family: gotham-book;
+    font-size: 28px;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+	text-transform: uppercase;
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+}
+
+.investment-bankingTxt p  {
+    font-family: Arial;
+    color: #000000;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 150%;
+    margin-bottom: 15px;
+}
+
+.corporate-governanceTxt p {
+    font-family: Arial;
+    color: #000000;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 150%;
+    margin-bottom: 15px;
+}
+
+.investment-bankingTxt h1.strongTitle, .corporate-governanceTxt h1.strongTitle {
+    font-family: Arial;
+    font-weight: bold;
+    color: #000000;
+    font-size: 16px;
+    font-style: normal;
+    margin: 18px 0 1px;
+	text-transform: uppercase;
+}
+
+.acceleration, .aesthetics {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.netincome p {
+    font-family: gotham-book;
+    color: #000000;
+    font-size: 28px;
+    font-style: normal;
+    padding-top: 10px;
+    margin-bottom: 35px;
+}
+
+.netincome p span {
+    color: #000000;
+    font-family: gotham-book;
+    font-size: 38px;
+    font-style: normal;
+}
+
+.textleft{
+    float: left;
+    overflow: hidden;
+	margin-bottom: 80px;	
+}
+
+.ammunition {
+	margin-top: 80px;
+}
+
+.docifc {
+    float: right;
+}
+.docbond {
+    float: right;
+    margin-top: 290px;
+    margin-right: -190px;
+}
+
+.docifc img, .docbond img {
+    padding-left: 20px;
+}
+
+.deepGreenBox{
+    background-image: url(../images/greenline9.png);
+    color: #669933;
+    font-family: gotham-book;
+    font-size: 28px;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+	text-transform: uppercase;
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+}
+
+.our-peopleTxt p, .leadershipTxt p, .generationTxt p {
+    font-family: Arial;
+    color: #000000;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 150%;
+    margin-bottom: 15px;
+}
+
+.fonbelief {
+    background: url(../images/fonbelief.png) no-repeat;
+    height: 155px;
+}
+
+.fonbelief .belief p  {
+    font-family: gotham-book;
+    color: #000000;
+    font-size: 28px;
+    font-style: normal;
+    padding-top: 32px;
+    padding-left: 66px;
+}
+
+.full {
+    margin-top: 80px;
+}
+
+.fleft {
+    float: left;
+}
+
+.overviewLogoBox .overviewLogoBoxColumn2 {
+    border-left: 2px solid #8ebe50;
+}
+
+.overviewLogoBox .overviewLogoBoxColumn2 img {
+    margin: 0 0 10px 12px;
+}
+
+.overviewLogoBox .overviewLogoBoxColumn2 .last img {
+    margin-bottom: 0;
+}
+
+.overviewLogoBox .overviewLogoBoxColumn1 img {
+    margin-right: 12px;
+}
+
+table.overviewLogoBox {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin: 50px 0;
+}
+
+.board-directorsBox, .management-boardBox {
+    background: url(../images/govcolorbord.png) no-repeat 0 35px rgba(0, 0, 0, 0);
+    color: #BFD730;
+    font-family: gotham-book;
+    font-size: 28px;
+    font-style: normal;
+    text-transform: uppercase;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.board-directorsTxt p, .management-boardTxt p  {
+    font-family: Arial;
+    color: #000000;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 150%;
+
+}
+
+.board-directorsTxt h1.strongTitle, .management-boardTxt h1.strongTitle {
+    font-family: Arial;
+    font-weight: bold;
+    color: #000000;
+    font-size: 16px;
+    font-style: normal;
+    margin: 18px 0 1px;
+}
+
+#boardleft {
+    float: left;
+}
+
+.margin-tb {
+    margin-top: 15px;
+}
+
+#boardleft img  {
+    display:block;
+    padding-right: 40px;
+}
+
+.textright {
+    overflow:hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+#boardleft p span, p span {
+    font-weight:bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.corporate-bankingTxt h1.strongTitle, .retail-bankingTxt h1.strongTitle {
+    font-family: Arial;
+    font-weight: bold;
+    color: #000000;
+    font-size: 16px;
+    font-style: normal;
+    margin: 28px 0 8px;
+    text-transform: uppercase;
+}
+
+#leasing-factor {
+	margin-top: 30px;
+	margin-bottom: 10px;	
+}
+
+.textleftcb{
+    overflow: hidden;
+    margin-top: 25px;
+    font-family: Arial;
+	font-style: normal;	
+}
+
+#boardrightcb {
+    float: right;
+	
+}
+
+#boardrightcb img  {
+    display:block;
+    padding-left: 30px;
+    margin-top: 15px;
+}
+
+.textleftcb p span {
+	font-family: Arial;
+	font-style: normal;
+    font-weight:bold;
+    text-transform:uppercase;
+    line-height: 35px;
+}
+
+.guarant {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+#firstHis, #secondHis, #thirdHis, 
+#forthHis, #fifthtHis, #sixthHis {
+	display:none;
+}
+
+img .lazy {
+	display: none;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	
+}
+
+#phoneLogo { display: none; }

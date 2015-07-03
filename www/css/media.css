@@ -1,0 +1,60 @@
+@media (min-width: 601px) and (max-width: 768px) {
+   
+	#boardrightcb, #boardleft{
+		float: none;
+	}
+	
+	#standartLogo { display: none; } 
+	#phoneLogo { display: block; }
+	
+		
+}
+ 
+
+ 
+@media (min-width: 320px) and (max-width: 600px) {
+
+	.textWrapRight, .textWrapLeft, .globalImgBlock, .corporateImgBlock , #boardrightcb, #boardleft{
+		float: none;
+	}
+	
+	#standartLogo { display: none; } 
+	#phoneLogo { display: block; }
+	
+    
+}
+
+@media (min-width: 768px) and (max-width: 1045px ) {
+	#standartLogo { display: none; }
+	#phoneLogo { display: block; }
+	
+	
+}
+
+	
+
+@media (min-width: 320px) and (max-width: 1045px) {
+   
+	
+	.menu-btn {
+		margin-right: 50px;
+		
+		}
+		
+}
+
+
+
+@media (min-width: 320px) and (max-width: 600px) {
+	
+.finHighBox span, 	
+.chief-review .chiefReviewTxt h1.title,
+.chairmans-letter .chairmansLetterTxt h1.title,
+.overBox, .retail-bankingBox, .corporate-bankingBox,
+.yellowBoardBox, .greenBoardBox, .deepGreenBox {
+	
+	font-size: 23px;
+			
+}
+
+}
